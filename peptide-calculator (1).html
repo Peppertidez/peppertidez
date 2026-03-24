@@ -1,32 +1,20 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Peptide Calculator</title>
-    <script>
-        function toggleDoseUnit() {
-            // Logic to toggle between MCG and MG
-        }
-
-        function convertDoses(dose) {
-            // Logic for conversion based on selected unit
-        }
-    </script>
 </head>
 <body>
-    <h1>Peptide Calculator</h1>
-    <div id="stats">
-        <!-- Concentration stats box to be removed -->
-    </div>
+    <h1>Peptide Dose Calculator</h1>
     <div>
-        <label for="dose">Dose:</label>
-        <select id="doseUnit" onchange="toggleDoseUnit()">
-            <option value="mcg">MCG</option>
-            <option value="mg">MG</option>
-        </select>
-        <input type="text" id="dose" onchange="convertDoses(this.value)" />
-        <!-- The direct dose input field to be removed -->
+        <h2>Select Dose:</h2>
+        <button>0.5 mg</button>
+        <button>1 mg</button>
+        <button>1.5 mg</button>
+        <button>2 mg</button>
+        <button>2.5 mg</button>
+        <button>5 mg</button>
     </div>
-    <svg style="transform: scaleX(-1);">
-        <!-- Syringe SVG code here -->
-    </svg>
 </body>
 </html>
